@@ -29,8 +29,20 @@ body::after {
     margin: 0 auto;
 }
 
-.pill {
+.content {
+    width: 639px;
+}
 
+.pill {
+    background-color: #FFFFFF;
+    margin-right: 10px;
+    width: 91px;
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 26px;
+    font-weight: bold;
 }
 
 header .brand {
@@ -85,19 +97,118 @@ header {
     background-color: #3A3C46;
     border-radius: 8px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    box-shadow: 0px 0 10px #00000016;
+    margin-bottom: 30px;
 }
 
 .avatar img {
     width: 98px;
     height: 98px;
     border-radius: 47px;
-    margin-left: 36px;
 }
 
 .avatar {
     width: 98px;
     height: 98px;
+    margin-left: 36px;
+    margin-right: 34px;
 }
 
+ul li {
+    list-style: none;
+
+}
+
+ul {
+    display: flex;
+}
+
+.youtube {
+    color: #EC4A44;
+}
+
+.github {
+    color: #24292E;
+}
+
+.linkedin {
+    color: #0A66C2;
+}
+
+.twitter {
+    color: #1DA1F2;
+}
+
+.instagram {
+    color: #ED4956;
+}
+
+.site-blog {
+    color: #3A3C46;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 2px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #E29500;
+    margin-bottom: 16px;
+}
+
+.action-button {
+    font-size: 18px;
+    font-weight: bold;
+    width: 96px;
+    height: 36px;
+    border-radius: 26px;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid #DEDEDE;
+    padding-left: 33px;
+}
+
+.edit {
+    background-color: #E7F7E7;
+    color: #3EB63E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete {
+    background-color: #FAECEB;
+    color: #EC4A44;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    margin-right: 54px;
+}
+
+footer {
+    margin-top: 45px;
+    border-top: 1px solid #707070;
+}
+.brand {
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-bottom: 5px;
+}
+
+.credits {
+    font-size: 18px;
+    font-weight: bold;
+    color: #E29500;
+}
